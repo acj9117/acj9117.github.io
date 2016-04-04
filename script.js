@@ -2,7 +2,7 @@
 $(document).ready(function () {
 
   // variable asking leaflet to create a map around NYC
-  var map = L.map('map').setView([40.731649,-73.977814], 10);
+  var map = L.map('map').setView([40.731649,-73.977814], 12);
   
   //Creates an undefined variable, to be used later in code
   var dataLayer;
