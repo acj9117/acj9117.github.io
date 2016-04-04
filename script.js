@@ -38,6 +38,7 @@ $(document).ready(function () {
       .done(function (data) {
         dataLayer.clearLayers();
         dataLayer.addData(data);
+        map.fitBounds(dataLayer.getBounds());
       });
   });
 
