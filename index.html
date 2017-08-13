@@ -1,36 +1,144 @@
-<!-- HTML -->
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
-
-		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
-		<link rel="stylesheet" type="text/css" href="MarkerCluster.css"/>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-
-		<title>FAA—Aircraft Cockpit Laser Illumination Incidents 2010–2015</title>
-</head>
-<body>
-<!-- <div class="mapTitle">
-	<h2>FAA—Aircraft Cockpit Laser Illumination Incidents 2010–2015</h2>
-	</div> -->
-<div id="map"></div>
-	
-	
-	
-	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
-	<script src="//api.tiles.mapbox.com/mapbox.js/plugins/turf/v2.0.0/turf.min.js"></script>
-	<script src="leaflet.markercluster.js"></script>
-	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-	<script type="text/javascript" src="libraries/jQuery-UI/jquery-ui.min.js"></script>
-	<script type="text/javascript" src="libraries/d3/d3.min.js"></script>
-	<script type="text/javascript" src="libraries/crossfilter/crossfilter.min.js"></script>
-	<script type="text/javascript" src="libraries/date/date.js"></script>
-	<script type="text/javascript" src="libraries/leaflet-control-geocoder/Control.Geocoder.js"></script>
-	<script type="text/javascript" src="libraries/leaflet-dvf/leaflet-dvf.markers.min.js"></script>
-	<script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.2.1"></script>
-
-	<script src="js/script.js"></script>
-</body>
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Judge Arriaga 2017</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+		<!-- favicon
+		============================================ -->		
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	   
+		<!-- Bootstrap CSS
+		============================================ -->		
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- font-awesome CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- meanmenu css -->
+        <link rel="stylesheet" href="css/meanmenu.min.css">
+		<!-- owl.carousel CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+        <link rel="stylesheet" href="css/owl.transitions.css">
+		<!-- nivo slider CSS
+		============================================ -->
+		<link rel="stylesheet" href="lib/css/nivo-slider.css" type="text/css" />
+		<link rel="stylesheet" href="lib/css/preview.css" type="text/css" media="screen" />
+		<!-- chosen CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/chosen.min.css">
+		<!-- animate CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- Magnific Popup CSS
+        ============================================ -->
+        <link rel="stylesheet" href="css/magnific-popup.css">
+		<!-- normalize CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/normalize.css">
+		<!-- main CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/main.css">
+		<!-- style CSS
+		============================================ -->
+        <link rel="stylesheet" href="style.css">
+		<!-- responsive CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/responsive.css">
+        
+		<!-- modernizr JS
+		============================================ -->		
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!-- Add your site or application content here -->
+        
+            <section class="timeline-area ptb-80">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="what-top line">
+                                <div class="section-title">
+                                    <h1>Political Timeline</h1>
+                                    <div class="what-icon">
+                                        <i class="fa fa-line-chart" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <p class="up">Explore some of the key moments and events that have helped shape the course of New Zealand's political and constitutional development.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-wraper fix">
+                            <div class="sin-timeline col-md-6 col-sm-6 text-center">
+                               <span class="timeline-date">Jun 2013</span>
+                                <div class="timeline-content">
+                                    <a class="timeline-img" href="index.html#"><img src="img/time-line/1.jpg" alt=""></a>
+                                    <div class="timeline-text">
+                                        <h3><a href="index.html#">Clinton's big worry</a></h3>
+                                        <p>However, he noted ISIS terrorists in Syria still have "the ability to appeal to troubled souls" online and said the number of open</p>
+                                        <a class="read-more" href="index.html#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sin-timeline col-md-6 col-sm-6 text-center res-sin">
+                               <span class="timeline-date">Jun 2013</span>
+                                <div class="timeline-content">
+                                    <a class="timeline-img" href="index.html#"><img src="img/time-line/2.jpg" alt=""></a>
+                                    <div class="timeline-text">
+                                        <h3><a href="index.html#">Clinton's big worry</a></h3>
+                                        <p>However, he noted ISIS terrorists in Syria still have "the ability to appeal to troubled souls" online and said the number of open</p>
+                                        <a class="read-more" href="index.html#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sin-timeline col-md-6 col-sm-6 text-center">
+                               <span class="timeline-date">Jun 2013</span>
+                                <div class="timeline-content">
+                                    <a class="timeline-img" href="index.html#"><img src="img/time-line/3.jpg" alt=""></a>
+                                    <div class="timeline-text">
+                                        <h3><a href="index.html#">Clinton's big worry</a></h3>
+                                        <p>However, he noted ISIS terrorists in Syria still have "the ability to appeal to troubled souls" online and said the number of open</p>
+                                        <a class="read-more" href="index.html#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="read-icon">
+                                <a class="re-icon" href="index.html#"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                                <a href="index.html#">Load More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+       
+        
+		<!-- jquery
+		============================================ -->		
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+		<!-- bootstrap JS
+		============================================ -->		
+        <script src="js/bootstrap.min.js"></script>
+        <!-- ajax mails JS
+        ============================================ -->
+        <script src="js/ajax-mail.js"></script>
+		<!-- wow JS
+		============================================ -->		
+        <script src="js/wow.min.js"></script>
+		<!-- Nivo slider js
+		============================================ --> 		
+		<script src="lib/js/jquery.nivo.slider.js" type="text/javascript"></script>
+		<script src="lib/home.js" type="text/javascript"></script>
+		<!-- plugins JS
+		============================================ -->
+        <script src="js/plugins.js"></script>
+		<!-- main JS
+		============================================ -->		
+        <script src="js/main.js"></script>
+    </body>
 </html>
